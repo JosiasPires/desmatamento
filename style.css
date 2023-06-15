@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #121212;
+    font-family: monospace;
+    color: white;
+    background-image: linear-gradient(to right,transparent -20%, #121212 60%), url(imagem.png);
+    background-size: cover;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    gap: 1rem;
+}
+
+header a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+    font-weight: 500;
+    flex: 1;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    align-items: center;
+}
+
+main > * {
+    padding: 2em;
+    width: 50%;
+}
+
+.ladoMapa img {
+    width: 100%;
+}
+
+.regiao {
+    font-size: 8rem;
+}
+
+.glide__slide {
+    display: flex;
+    justify-content: center;
+}
+
+.glide__slide p {
+    background-color: gray;
+    text-align: justify;
+    width: 28rem;
+}
+
+.glide__slide img {
+    width: 100%;
+}
