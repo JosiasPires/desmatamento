@@ -47,6 +47,8 @@ main > * {
 
 .regiao {
     font-size: 8rem;
+    text-align: center;
+    width: 100%;
 }
 
 .glide__slide {
