@@ -55,8 +55,9 @@ main > * {
 }
 
 .glide__slide p {
-    background-color: gray;
+    /* background-color: gray; */
     text-align: justify;
+    font-size: 1rem;
     width: 28rem;
 }
 
